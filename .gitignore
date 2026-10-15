@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# WorkBuddy 本地数据
+.workbuddy/
+*.genie
+
+# 依赖与构建产物
+node_modules/
+miniprogram_npm/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

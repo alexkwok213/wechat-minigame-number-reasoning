@@ -1,0 +1,35 @@
+{
+  "description": "密码推理·数谜迷局 微信小游戏",
+  "compileType": "game",
+  "projectname": "password-puzzle-game",
+  "appid": "wxd48de03d737d5c2e",
+  "libVersion": "3.0.0",
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "enhance": true,
+    "packNpmManually": false,
+    "urlCheck": false,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "packOptions": {
+    "ignore": [
+      { "type": "folder", "value": "password-puzzle" },
+      { "type": "folder", "value": "preview-ui" },
+      { "type": "folder", "value": ".workbuddy" },
+      { "type": "file", "value": ".DS_Store" },
+      { "type": "file", "value": "minigame-icon-512.png" },
+      { "type": "suffix", "value": ".genie" }
+    ],
+    "include": []
+  },
+  "editorSetting": {}
+}
